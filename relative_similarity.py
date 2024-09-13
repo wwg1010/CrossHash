@@ -48,8 +48,3 @@ class RelativePosition(nn.Module):
     def forward(self, z):
         a = z - z.mean()
         return self.scale * a / matrix_norm(a)
-
-        # mu = z.mean()
-        # a = z - mu
-        # zeta = matrix_norm(a)
-        # return self.scale * a / gamma
