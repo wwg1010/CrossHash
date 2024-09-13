@@ -6,16 +6,7 @@ import numpy as np
 
 def generate_centroids(nclass: int, nbit: int, init_method: str, device=torch.device('cuda:0')) -> torch.Tensor:
     print('Generating_centroids')
-    if init_method == 'N':  # normal distribution
-        centroids = torch.randn(nclass, nbit, device=device)
-    elif init_method == 'U':  # uniform distribution
-        centroids = torch.rand(nclass, nbit, device=device) - 0.5
-    elif init_method == 'B':  # bernoulli distribution
-        prob = torch.ones(nclass, nbit, device=device) * 0.5
-        centroids = torch.bernoulli(prob) * 2. - 1.
-    elif init_method == 'M':  # Maximum Hamming Distance
-        centroids = get_maxhd(nclass, nbit)
-    elif init_method == 'H':  # hadamard matrix
+    if init_method == 'H':  # hadamard matrix
         centroids = get_hadamard(nclass, nbit)
     else:
         raise NotImplementedError(f'Centroid initialization method {init_method} is not implemented')
