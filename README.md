@@ -1,6 +1,9 @@
 # CrossHash
 A CrossFormer-Based Hashing method
 
+# crossformer-b.pth
+> 链接: https://pan.baidu.com/s/1ujGJ1jrp7BZaL5ZtF5zdHQ 提取码: wg10 
+
 # Dataset 
 We using COCO2014 NUSWIDE-TC21 MIRFlikcr25k in our experiment:
 > COCO2014
@@ -18,12 +21,3 @@ We using COCO2014 NUSWIDE-TC21 MIRFlikcr25k in our experiment:
 > Reference for how to divide the data set ：
 > 
 > https://github.com/swuxyj/DeepHash-pytorch
-
-# Environment Problem (Important)
-<p>
-  This repo uses apex and timm packages to avoid environmental conflict we provide a well-installed conda environment you just need to follow the step shown below
-</p>
-
-
-![method](https://github.com/Mahiro2211/CrossHash/assets/130811701/306b7ab7-a93b-42ad-8b10-4836fb605350)
-
