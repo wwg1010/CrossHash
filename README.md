@@ -1,5 +1,5 @@
 # CrossHash
-A CrossFormer-Based Hashing method
+You can run CrossFormer_train.py to train the model.
 
 # crossformer-b.pth
 > 链接: https://pan.baidu.com/s/1ujGJ1jrp7BZaL5ZtF5zdHQ 提取码: wg10 
