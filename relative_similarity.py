@@ -6,12 +6,12 @@ from torch.linalg import matrix_norm
 from centroids_generator import generate_centroids
 
 class RelativeSimilarity(nn.Module):
-    def __init__(self, nbit, nclass, batchsize, init_method='M', device='cuda:0'):
+    def __init__(self, nbit, nclass, batchsize, init_method='H', device='cuda:0'):
         super(RelativeSimilarity, self).__init__()
         self.nbit = nbit
         self.nclass = nclass
 
-        self.centroids = nn.Parameter(generate_centroids(nclass, nbit, init_method='N', device=device))
+        self.centroids = nn.Parameter(generate_centroids(nclass, nbit, init_method='H', device=device))
         self.centroids.requires_grad_(False)
 
         self.relative_pos = RelativePosition(nbit, batchsize, device=device)
