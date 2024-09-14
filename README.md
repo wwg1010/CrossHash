@@ -8,15 +8,15 @@ You can run CrossFormer_train.py to train the model.
 We using COCO2014 NUSWIDE-TC21 MIRFlikcr25k in our experiment:
 > COCO2014
 > 
-> 链接: https://pan.baidu.com/s/1D88pWPcmGRgVBra2lB3MwQ?pwd=1023 提取码: 1023
+> 链接: https://pan.baidu.com/s/1zGCvGlo_ehK_J59oulJSJg 提取码: wg10
 > 
 > NUSWIDE-TC21
 > 
-> 链接: https://pan.baidu.com/s/1OZk-A8sohjl69oSG0reJWg?pwd=1024 提取码: 1024
+> 链接: https://pan.baidu.com/s/1-vIYgXuB4Zk0LJ1RPrZnpw 提取码: wg10 
 > 
 > MIRFlickr25K
 > 
-> 链接: https://pan.baidu.com/s/1WnUxKbZ4cIwxIkFOgyPjuQ 提取码: 1025
+> 链接: https://pan.baidu.com/s/1EKkBA03zhT05Y-cjxFbZKA 提取码: wg10
 > 
 > Reference for how to divide the data set ：
 > 
