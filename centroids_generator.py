@@ -4,7 +4,7 @@ from scipy.linalg import hadamard
 import random
 import numpy as np
 
-def generate_centroids(nclass: int, nbit: int, init_method: str, device=torch.device('cuda:0')) -> torch.Tensor:
+def generate_centroids(nclass: int, nbit: int, init_method: str, device=torch.device('cuda:2')) -> torch.Tensor:
     print('Generating_centroids')
     if init_method == 'N':  # normal distribution
         centroids = torch.randn(nclass, nbit, device=device)
